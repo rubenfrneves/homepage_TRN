@@ -195,7 +195,7 @@ def layout(opt, lang, page, title, body, desc=None, modals=''):
     footer = (f'<footer class="site"><div class="wrap">{fcontacts}<div class="ft"><a class="brand" href="{link(lang, "home")}"><img src="../../assets/img/logo-trn.svg" alt="TRN — Rodoviária Internacional e Nacional, Lda." width="124" height="52"></a>'
               f'<p class="fl"><a href="{link(lang, "careers")}">{e(f["careers"])}</a> · <a href="{link(lang, "legal", "#privacidade")}">{e(f["privacy"])}</a> · <a href="{link(lang, "legal", "#cookies")}">{e(f["cookies"])}</a> · '
               f'<a href="https://www.livroreclamacoes.pt" target="_blank" rel="noopener">{e(f["complaints"])}</a>{tr}</p></div>'
-              f'<div class="bot"><span>{e(f["rights"])}</span><span>{e(f["author"])}</span></div></div></footer>')
+              f'<div class="bot"><span>' + (f'<a class="ghost" href="../../admin/index.html" rel="nofollow">©</a>{e(f["rights"][1:])}' if f["rights"].startswith('©') else e(f["rights"])) + f'</span><span>{e(f["author"])}</span></div></div></footer>')
     c = L['cookie']
     cookie = (f'<div class="cookie" id="cookie" role="dialog" aria-label="Cookies" hidden><p>{e(c["text"])} <a href="{link(lang, "legal", "#cookies")}">{e(c["more"])}</a></p>'
               f'<div class="cookie__b"><button type="button" class="btn btn--red" data-cookie="yes">{e(c["yes"])}</button><button type="button" class="btn btn--line" data-cookie="no">{e(c["no"])}</button></div></div>')

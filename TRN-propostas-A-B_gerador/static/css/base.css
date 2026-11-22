@@ -136,3 +136,5 @@ footer.site .brand img{background:#fff;border-radius:8px;padding:6px 10px;height
 }
 
 .vid{max-width:960px}.vid video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#23282D;border-radius:14px;box-shadow:0 14px 36px rgba(35,40,45,.22)}.vid .head{margin-bottom:14px}
+
+a.ghost{color:inherit;text-decoration:none;cursor:text}a.ghost:hover,a.ghost:focus-visible{color:inherit;text-decoration:none}
