@@ -1,0 +1,74 @@
+{
+ "pt": {
+  "title": "Proposta de novo website",
+  "lead": "Duas opções para o site da TRN. Escolha uma para ver o site completo, em português, inglês e espanhol.",
+  "view": "Ver opção",
+  "a_t": "Opção A",
+  "a_s": "Evolução do site atual",
+  "a_p": [
+   "Mantém a estrutura e o estilo do site atual",
+   "Mais compacta: cerca de 3 ecrãs",
+   "Destaque para o transporte de trabalhadores",
+   "Onda prateada e laranja da pintura dos autocarros"
+  ],
+  "b_t": "Opção B",
+  "b_s": "Nova proposta, mais comercial",
+  "b_p": [
+   "Fundo claro e tom mais comercial",
+   "Orçamento rápido logo no topo",
+   "Separadores por tipo de cliente",
+   "Contactos, executivo e recrutamento em três blocos"
+  ],
+  "desc": "Proposta de novo website para a TRN — Rodoviária Internacional e Nacional, Lda.: duas opções para escolher.",
+  "alt_a": "Captura da Opção A",
+  "alt_b": "Captura da Opção B"
+ },
+ "en": {
+  "title": "New website proposal",
+  "lead": "Two options for the TRN website. Pick one to see the full site, in Portuguese, English and Spanish.",
+  "view": "View option",
+  "a_t": "Option A",
+  "a_s": "Evolution of the current site",
+  "a_p": [
+   "Keeps the structure and style of the current site",
+   "More compact: about 3 screens",
+   "Staff transport in the spotlight",
+   "Silver and orange wave from the coach livery"
+  ],
+  "b_t": "Option B",
+  "b_s": "New proposal, more commercial",
+  "b_p": [
+   "Light background and a more commercial tone",
+   "Quick quote bar right at the top",
+   "Tabs by type of client",
+   "Contact, executive and careers in three blocks"
+  ],
+  "desc": "New website proposal for TRN — Rodoviária Internacional e Nacional, Lda.: two options to choose from.",
+  "alt_a": "Screenshot of Option A",
+  "alt_b": "Screenshot of Option B"
+ },
+ "es": {
+  "title": "Propuesta de nuevo sitio web",
+  "lead": "Dos opciones para el sitio de TRN. Elija una para ver el sitio completo, en portugués, inglés y español.",
+  "view": "Ver opción",
+  "a_t": "Opción A",
+  "a_s": "Evolución del sitio actual",
+  "a_p": [
+   "Mantiene la estructura y el estilo del sitio actual",
+   "Más compacta: unas 3 pantallas",
+   "Protagonismo para el transporte de trabajadores",
+   "Onda plateada y naranja de la pintura de los autocares"
+  ],
+  "b_t": "Opción B",
+  "b_s": "Nueva propuesta, más comercial",
+  "b_p": [
+   "Fondo claro y tono más comercial",
+   "Presupuesto rápido en la parte superior",
+   "Pestañas por tipo de cliente",
+   "Contacto, ejecutivo y empleo en tres bloques"
+  ],
+  "desc": "Propuesta de nuevo sitio web para TRN — Rodoviária Internacional e Nacional, Lda.: dos opciones para elegir.",
+  "alt_a": "Captura de la Opción A",
+  "alt_b": "Captura de la Opción B"
+ }
+}

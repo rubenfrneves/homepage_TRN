@@ -1,0 +1,470 @@
+{
+ "code": "es",
+ "locale": "es",
+ "og": "es_ES",
+ "label": "ES",
+ "files": {
+  "home": "index.html",
+  "careers": "empleo.html",
+  "legal": "legal.html"
+ },
+ "nav": {
+  "services": "Servicios",
+  "fleet": "Flota",
+  "faq": "Preguntas",
+  "contact": "Contacto",
+  "careers": "Empleo",
+  "quote": "Pedir presupuesto",
+  "menu": "Menú",
+  "skip": "Saltar al contenido",
+  "lang": "Idioma",
+  "home_aria": "TRN — página de inicio",
+  "call": "Llamar",
+  "close": "Cerrar",
+  "chooser": "Elegir otra opción"
+ },
+ "phone_label": "Teléfono",
+ "wa_label": "WhatsApp",
+ "email_label": "Email",
+ "address_label": "Sede",
+ "garage_label": "Oficina y garaje",
+ "titles": {
+  "home": "Alquiler de autocares con conductor | TRN Rodoviária",
+  "careers": "Empleo — Conductores y técnicos de tráfico | TRN Rodoviária",
+  "legal": "Privacidad y cookies | TRN Rodoviária"
+ },
+ "titles_b": {
+  "home": "Autocares de 16 a 59 plazas, a la hora acordada | TRN Rodoviária"
+ },
+ "descs": {
+  "home": "Autocares de 16 a 59 plazas para empresas, colegios, agencias y grupos, en Portugal y Europa. Pida presupuesto a TRN, en Amadora.",
+  "careers": "Trabaje en TRN, en Amadora: conductores de vehículos ligeros y de autocares, transporte escolar y técnico/a de tráfico.",
+  "legal": "Política de privacidad y de cookies de TRN — Rodoviária Internacional e Nacional, Lda."
+ },
+ "a": {
+  "h1": "Alquiler de autocares con conductor",
+  "sub": "Transporte para empresas, colegios, agencias y grupos, en Portugal y Europa.",
+  "line": "16 a 59 plazas · Respuesta en [1 día laborable] · Portugal y Europa",
+  "cta1": "Pedir presupuesto",
+  "cta2": "Conocer la flota",
+  "services_t": "Servicios",
+  "services_l": "Lo que podemos hacer por su grupo.",
+  "fleet_t": "Nuestra flota",
+  "fleet_l": "Del minibús a la berlina ejecutiva.",
+  "how_t": "Cómo funciona",
+  "faq_t": "Preguntas frecuentes",
+  "req_t": "Pida su propuesta",
+  "req_l": "Cuéntenos el viaje y le enviamos la propuesta.",
+  "workers_btn": "Cómo funciona para empresas",
+  "video_t": "Conozca TRN en vídeo",
+  "video_l": "Flota, equipo y servicio en menos de un minuto.",
+  "video_alt": "Vídeo promocional de TRN"
+ },
+ "b": {
+  "h1": "Autocares de 16 a 59 plazas, a la hora acordada.",
+  "sub": "Grupos, colegios, empresas y eventos. Indíquenos el viaje y le enviamos la propuesta en [1 día laborable].",
+  "badges": [
+   "Respuesta rápida",
+   "Conductores profesionales",
+   "Portugal y Europa"
+  ],
+  "who_t": "Para quién trabajamos",
+  "fleet_t": "Flota propia",
+  "steps_t": "Tres pasos hasta el viaje",
+  "faq_t": "Preguntas frecuentes",
+  "contacts_t": "Contacto",
+  "workers_btn": "Cómo funciona para empresas",
+  "exec_t": "Transporte ejecutivo",
+  "exec_x": "Chófer privado, berlinas y furgonetas para grupos pequeños.",
+  "exec_cta": "Pedir transporte ejecutivo",
+  "jobs_t": "Trabaje con nosotros",
+  "jobs_x": "Buscamos conductores y técnicos de tráfico.",
+  "jobs_cta": "Ver vacantes",
+  "contact_t": "Hable con nosotros"
+ },
+ "quick": {
+  "title": "Pida un presupuesto",
+  "from": "Salida",
+  "to": "Destino",
+  "date": "Fecha",
+  "pax": "Pasajeros",
+  "ph_from": "Ej.: Amadora",
+  "ph_to": "Ej.: Fátima",
+  "go": "Pedir presupuesto",
+  "note": "Solicitud de propuesta, sujeta a disponibilidad. No es una reserva."
+ },
+ "services": {
+  "workers": {
+   "name": "Transporte de trabajadores",
+   "text": "Servicios regulares especializados, incluidos turnos nocturnos y fines de semana, con rutas diseñadas a medida."
+  },
+  "school": {
+   "name": "Transporte escolar y excursiones escolares",
+   "text": "Excursiones escolares y transporte regular de alumnos, con horarios cumplidos."
+  },
+  "tours": {
+   "name": "Circuitos turísticos y agencias",
+   "text": "Itinerarios de uno o varios días, en Portugal y Europa."
+  },
+  "groups": {
+   "name": "Excursiones y grupos",
+   "text": "Asociaciones, familias y grupos de amigos, con recogida y regreso a la hora acordada."
+  },
+  "events": {
+   "name": "Traslados y eventos",
+   "text": "Traslados entre aeropuerto, hoteles y sedes de eventos."
+  },
+  "executive": {
+   "name": "Transporte ejecutivo",
+   "text": "Chófer privado, berlinas y furgonetas para grupos pequeños."
+  }
+ },
+ "fleet4": [
+  {
+   "id": "minibus",
+   "img": "sprinter",
+   "name": "Minibuses",
+   "cap": "desde 16 plazas",
+   "text": "Grupos más pequeños, equipos y traslados."
+  },
+  {
+   "id": "coach",
+   "img": "trn_man",
+   "name": "Autocares de turismo",
+   "cap": "hasta 59 plazas",
+   "text": "Excursiones, circuitos, colegios y eventos."
+  },
+  {
+   "id": "van",
+   "img": "vito2",
+   "name": "Furgonetas",
+   "cap": "chófer privado",
+   "text": "Grupos reducidos, con conductor."
+  },
+  {
+   "id": "sedan",
+   "img": "classe_s2",
+   "name": "Berlinas ejecutivas",
+   "cap": "chófer privado",
+   "text": "Para quien viaja en pocos."
+  }
+ ],
+ "fleet3": [
+  {
+   "name": "Minibuses",
+   "cap": "desde 16 plazas",
+   "text": "Grupos más pequeños, equipos y traslados."
+  },
+  {
+   "name": "Autocares de turismo",
+   "cap": "hasta 59 plazas",
+   "text": "Excursiones, circuitos, colegios y eventos."
+  },
+  {
+   "name": "Transporte ejecutivo",
+   "cap": "berlinas y furgonetas",
+   "text": "Chófer privado para pocos pasajeros."
+  }
+ ],
+ "amen": {
+  "title": "A bordo",
+  "items": [
+   "Wi-Fi",
+   "WC",
+   "Aire acondicionado",
+   "Cinturones de seguridad"
+  ],
+  "note": "Según el vehículo."
+ },
+ "tabs": [
+  {
+   "label": "Empresas",
+   "title": "Transporte de trabajadores",
+   "text": "Rutas diseñadas según sus turnos, de día, de noche y en fin de semana.",
+   "img": "trn_man2",
+   "items": [
+    [
+     "Servicios regulares especializados",
+     "Equipos y grupos fijos, todos los días, mismo horario."
+    ],
+    [
+     "Eventos y congresos",
+     "Varios autocares coordinados a la vez."
+    ],
+    [
+     "Traslados de equipos",
+     "Aeropuerto, hotel y centros de trabajo."
+    ]
+   ]
+  },
+  {
+   "label": "Colegios y ayuntamientos",
+   "title": "Transporte escolar",
+   "text": "Excursiones escolares y transporte regular de alumnos, con horarios cumplidos.",
+   "img": "trn_man",
+   "items": [
+    [
+     "Transporte escolar regular",
+     "Casa–colegio, todos los días lectivos."
+    ],
+    [
+     "Excursiones escolares",
+     "Salidas de un día, con recogida en el colegio."
+    ],
+    [
+     "Servicios para ayuntamientos",
+     "Programas de mayores, juventud y eventos municipales."
+    ]
+   ]
+  },
+  {
+   "label": "Agencias y circuitos",
+   "title": "Circuitos y turismo",
+   "text": "Itinerarios de uno o varios días, en Portugal y Europa.",
+   "img": "vito2",
+   "items": [
+    [
+     "Circuitos nacionales e internacionales",
+     "Itinerarios completos, dentro y fuera del país."
+    ],
+    [
+     "Traslados",
+     "Aeropuerto, estaciones y hoteles."
+    ],
+    [
+     "Tours",
+     "Paseos de medio día o día completo."
+    ]
+   ]
+  },
+  {
+   "label": "Asociaciones y grupos",
+   "title": "Excursiones",
+   "text": "Para asociaciones, familias y grupos de amigos: recogida en la puerta y regreso a la hora acordada.",
+   "img": "sprinter",
+   "items": [
+    [
+     "Excursiones de uno o más días",
+     "De 16 a 59 personas por vehículo."
+    ],
+    [
+     "Recogida en la puerta",
+     "Uno o varios puntos de salida."
+    ],
+    [
+     "Grupos más grandes",
+     "Varios autocares en el mismo viaje."
+    ]
+   ]
+  }
+ ],
+ "steps": [
+  [
+   "Cuéntenos el viaje",
+   "Salida, destino, fecha y número de pasajeros."
+  ],
+  [
+   "Reciba la propuesta",
+   "En [1 día laborable — por confirmar], con el vehículo adecuado para el grupo."
+  ],
+  [
+   "Viaje tranquilo",
+   "Conductor profesional y un contacto TRN de principio a fin."
+  ]
+ ],
+ "faq": [
+  [
+   "¿Cuánto tarda la respuesta?",
+   "Enviamos la propuesta en [1 día laborable — por confirmar]."
+  ],
+  [
+   "¿Viajan fuera de Portugal?",
+   "Sí. Hacemos circuitos y traslados en Portugal y Europa."
+  ],
+  [
+   "¿Cuántos pasajeros caben?",
+   "De 16 a 59 por vehículo. Para grupos mayores, combinamos varios autocares en el mismo viaje."
+  ],
+  [
+   "¿Transportan trabajadores por turnos?",
+   "Sí, incluidos turnos nocturnos y fines de semana, con rutas a medida."
+  ],
+  [
+   "¿Y para pocas personas?",
+   "Tenemos transporte ejecutivo: chófer privado, berlinas y furgonetas."
+  ]
+ ],
+ "values": {
+  "title": "Valores",
+  "items": [
+   "Puntualidad",
+   "Profesionalidad",
+   "Confidencialidad",
+   "Ética"
+  ],
+  "text": "Conductores uniformados y con formación regular."
+ },
+ "workers": {
+  "title": "Transporte de trabajadores para empresas",
+  "intro": "Analizamos horarios, número de personas y zonas de residencia, proponemos rutas y probamos cada recorrido antes de empezar.",
+  "steps": [
+   [
+    "Diagnóstico",
+    "Horarios, número de personas y zonas de residencia."
+   ],
+   [
+    "Propuesta",
+    "Rutas y paradas, con tiempos de recorrido."
+   ],
+   [
+    "Prueba de recorrido",
+    "Recorremos cada ruta antes de empezar."
+   ],
+   [
+    "Seguimiento",
+    "Ajuste de rutas cuando cambian los turnos."
+   ]
+  ],
+  "perks": [
+   "Conductores fijos en cada ruta",
+   "Turnos nocturnos y fines de semana",
+   "Facturación mensual",
+   "Vehículo de sustitución [por confirmar]"
+  ],
+  "note": "Los puntos entre corchetes son ejemplos a confirmar por TRN.",
+  "cta": "Pedir propuesta para mi empresa"
+ },
+ "q": {
+  "title": "Pedir presupuesto",
+  "sub": "Dos pasos rápidos. Solicitud de propuesta, sujeta a disponibilidad.",
+  "s1": "El viaje",
+  "s2": "Sus datos",
+  "step": "Paso {n} de 2",
+  "from": "Salida",
+  "to": "Destino",
+  "date": "Fecha",
+  "pax": "Pasajeros",
+  "service": "Servicio",
+  "name": "Nombre",
+  "email": "Email",
+  "phone": "Teléfono",
+  "notes": "Observaciones",
+  "next": "Continuar",
+  "back": "Volver",
+  "send": "Enviar solicitud",
+  "sending": "Enviando…",
+  "privacy": "Al enviar, acepta nuestra",
+  "privacy_link": "Política de privacidad",
+  "required": "Campo obligatorio",
+  "bad_email": "Indique un email válido",
+  "got_t": "Solicitud recibida",
+  "got_x": "Gracias. Referencia:",
+  "mail_hint": "Abrimos su correo con la solicitud ya escrita. Pulse Enviar en el correo para completarla.",
+  "fail": "No se pudo enviar. Los datos se conservan aquí. Inténtelo de nuevo o escriba a {mail}.",
+  "spam": "No se pudo validar la solicitud.",
+  "subject": "Solicitud de presupuesto"
+ },
+ "careers": {
+  "kicker": "Empleo · Amadora y Gran Lisboa",
+  "h1": "Conduzca con nosotros.",
+  "sub": "Turnos diurnos y nocturnos, formación continua y uniforme incluido. Elija la vacante y envíe su candidatura en dos minutos.",
+  "jobs_t": "Vacantes abiertas",
+  "example": "[Vacantes de ejemplo — por confirmar]",
+  "apply": "Candidatarme",
+  "spont": "Candidatura espontánea",
+  "jobs": [
+   [
+    "Conductor de vehículos ligeros de pasajeros",
+    "Transporte de trabajadores · turnos nocturnos",
+    [
+     "Carné B",
+     "Disponibilidad nocturna",
+     "Buen trato con el pasajero"
+    ]
+   ],
+   [
+    "Conductor de autocar",
+    "Excursiones, circuitos y servicios regulares",
+    [
+     "Carné D o D1",
+     "CAP (código 95) válido",
+     "Tarjeta de conductor (tacógrafo)"
+    ]
+   ],
+   [
+    "Conductor de transporte escolar",
+    "Servicios escolares · horario diurno",
+    [
+     "Carné adecuado al vehículo",
+     "Certificado de transporte colectivo de niños",
+     "Disponibilidad en horario escolar"
+    ]
+   ],
+   [
+    "Técnico/a de tráfico",
+    "Oficina en Amadora · jornada completa",
+    [
+     "Planificación de rutas y turnos",
+     "Buenos conocimientos de Excel",
+     "Carné B"
+    ]
+   ]
+  ],
+  "form_t": "Candidatura",
+  "job": "Vacante",
+  "name": "Nombre completo",
+  "phone": "Móvil",
+  "email": "Email",
+  "lic": "Titulaciones",
+  "lics": [
+   "Carné B",
+   "Carné D / D1",
+   "CAP (código 95)",
+   "Tarjeta de conductor",
+   "Transporte de niños"
+  ],
+  "cv": "Currículum",
+  "cv_hint": "PDF o Word. También puede enviarlo a geral@trnrodoviaria.pt.",
+  "consent": "Autorizo el tratamiento de mis datos a efectos de selección.",
+  "send": "Enviar candidatura",
+  "got_t": "Candidatura recibida",
+  "subject": "Candidatura"
+ },
+ "contacts": {
+  "title": "Contacto",
+  "wa": "Hablar por WhatsApp",
+  "call": "Llamar"
+ },
+ "legal": {
+  "title": "Privacidad y cookies",
+  "note": "Borrador para validación jurídica antes de la publicación.",
+  "privacy_h": "Política de privacidad",
+  "cookies_h": "Política de cookies",
+  "privacy": "<p>TRN — Rodoviária Internacional e Nacional, Lda., con sede en Rua Padre António Vieira, n.º 2, 2700-632 Amadora, Portugal (oficina y garaje: Rua das Indústrias, n.º 19, Amadora), es la entidad responsable de los datos personales recogidos en este sitio. NIF: [NIPC].</p><p><strong>Finalidades:</strong> responder a solicitudes de presupuesto (nombre, email, teléfono y datos del viaje) y tramitar candidaturas (nombre, contactos, titulaciones y currículum que usted envíe).</p><p><strong>Base jurídica:</strong> medidas precontractuales a petición suya y consentimiento. <strong>Conservación:</strong> [plazo por definir]. <strong>Destinatarios:</strong> proveedores que apoyan a TRN (alojamiento, recepción de solicitudes, email): [por listar].</p><p><strong>Derechos:</strong> acceso, rectificación, supresión, limitación, oposición y portabilidad, y retirar el consentimiento en cualquier momento, mediante [contacto para datos personales]. Puede reclamar ante la autoridad portuguesa CNPD (www.cnpd.pt).</p>",
+  "cookies": "<p>Este sitio guarda en su navegador solo lo necesario para funcionar: su elección en este aviso y el borrador de la solicitud mientras la rellena. No usa cookies de publicidad.</p><p>Si llegan a usarse estadísticas de visitas, solo se activan tras aceptar. Puede cambiar su elección borrando los datos del sitio en el navegador. Herramienta: [por rellenar].</p>"
+ },
+ "cookie": {
+  "text": "Este sitio guarda solo lo necesario para funcionar. Si llegan a usarse estadísticas, solo se activan con su permiso.",
+  "yes": "Aceptar",
+  "no": "Rechazar",
+  "more": "Saber más"
+ },
+ "footer": {
+  "privacy": "Privacidad",
+  "cookies": "Cookies",
+  "complaints": "Livro de Reclamações",
+  "complaints_tr": "Libro de Reclamaciones",
+  "rights": "© 2026 TRN — Rodoviária Internacional e Nacional, Lda.",
+  "author": "Concepto, diseño y textos © 2026 Rúben Neves.",
+  "careers": "Empleo"
+ },
+ "og_alt": "Flota de autocares TRN — Rodoviária Internacional e Nacional",
+ "images": {
+  "trn_frota": "Autocares, furgonetas y berlina de TRN aparcados en fila junto al puente 25 de Abril",
+  "trn_man": "Autocar MAN de turismo de TRN",
+  "trn_man2": "Autocares de TRN aparcados en una terminal",
+  "sprinter": "Mercedes Sprinter de TRN, vista frontal",
+  "vito2": "Mercedes Vito de TRN",
+  "classe_s2": "Mercedes Clase S de TRN"
+ }
+}

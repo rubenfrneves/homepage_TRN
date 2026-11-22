@@ -1,0 +1,7 @@
+{
+ "user": "ADMIN TIC",
+ "kdf": "pbkdf2-sha256",
+ "iterations": 600000,
+ "salt": "fyGtJX9hFrGNW2asrKrOiQ==",
+ "hash": "9MBaHZ8R0SCYd5qubNISkO4p3aD7zwHMJXY1F83EEEA="
+}
