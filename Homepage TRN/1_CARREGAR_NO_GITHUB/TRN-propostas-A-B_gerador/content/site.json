@@ -1,0 +1,23 @@
+{
+ "company": "TRN — Rodoviária Internacional e Nacional, Lda.",
+ "email": "geral@trnrodoviaria.pt",
+ "phone": "+351 215 871 816",
+ "whatsapp": "",
+ "formspree_id": "",
+ "address": [
+  "Rua Padre António Vieira, n.º 2",
+  "2700-632 Amadora, Portugal"
+ ],
+ "garage": [
+  "Rua das Indústrias, n.º 19",
+  "Amadora, Portugal"
+ ],
+ "base_url": "https://rubenfrneves.github.io/trn-proposta-site/TRN-propostas-A-B/",
+ "noindex": true,
+ "github": {
+  "owner": "rubenfrneves",
+  "repo": "trn-proposta-site",
+  "branch": "main",
+  "generator_dir": "TRN-propostas-A-B_gerador"
+ }
+}

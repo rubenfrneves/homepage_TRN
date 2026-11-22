@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<title>Backoffice TRN — ADMIN TIC</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#23282D">
+<link rel="icon" type="image/svg+xml" href="../assets/img/logo-trn.svg">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<noscript><p style="padding:24px">O backoffice precisa de JavaScript.</p></noscript>
+
+<!-- 1. login -->
+<main id="v-login" class="login" hidden>
+  <form id="f-login" class="card login__box" autocomplete="off" novalidate>
+    <img src="../assets/img/logo-trn.svg" alt="TRN — Rodoviária Internacional e Nacional, Lda." width="150" height="63">
+    <h1>Backoffice</h1>
+    <p class="muted">Acesso reservado à administração (ADMIN TIC).</p>
+    <label for="u">Utilizador</label>
+    <input id="u" name="u" type="text" autocomplete="username" required>
+    <label for="p">Senha</label>
+    <input id="p" name="p" type="password" autocomplete="current-password" required>
+    <p class="err" id="login-err" role="alert" hidden></p>
+    <button class="btn btn--red" id="login-btn" type="submit">Entrar</button>
+  </form>
+  <p class="muted small">Esta página só edita o conteúdo. Quem publica é o token do GitHub guardado, cifrado, no seu navegador.</p>
+</main>
+
+<!-- 0. backoffice sem senha -->
+<main id="v-nosetup" class="login" hidden>
+  <div class="card login__box">
+    <img src="../assets/img/logo-trn.svg" alt="TRN" width="150" height="63">
+    <h1>Backoffice por configurar</h1>
+    <p>Ainda não foi definida a senha de acesso. No computador, na pasta do gerador, execute:</p>
+    <pre>python3 gerar.py --senha</pre>
+    <p class="muted">Depois envie o ficheiro <code>content/admin.json</code> para o GitHub. As instruções completas estão no <code>LEIA-ME-BACKOFFICE.md</code>.</p>
+  </div>
+</main>
+
+<!-- 2. token do GitHub -->
+<main id="v-token" class="login" hidden>
+  <form id="f-token" class="card login__box" novalidate>
+    <h1>Ligar ao GitHub</h1>
+    <p>Para publicar alterações, o backoffice usa um <strong>token do GitHub</strong> só com permissão neste repositório. Cola-o aqui uma vez: fica guardado <strong>cifrado com a sua senha</strong> neste navegador.</p>
+    <ol class="steps small">
+      <li>GitHub → <em>Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token</em>.</li>
+      <li><em>Repository access</em>: só <code id="repo-name"></code>.</li>
+      <li><em>Permissions → Repository permissions → Contents: Read and write</em> (e <em>Actions: Read-only</em>, opcional, para ver o estado da publicação).</li>
+    </ol>
+    <label for="tk">Token</label>
+    <input id="tk" type="password" autocomplete="off" placeholder="github_pat_…" required>
+    <p class="err" id="token-err" role="alert" hidden></p>
+    <button class="btn btn--red" id="token-btn" type="submit">Guardar e continuar</button>
+    <button class="btn btn--line" id="token-skip" type="button">Entrar só para ver (sem publicar)</button>
+  </form>
+</main>
+
+<!-- 3. backoffice -->
+<div id="v-app" hidden>
+  <header class="top">
+    <div class="top__in">
+      <img src="../assets/img/logo-trn.svg" alt="TRN" width="90" height="38">
+      <strong class="top__t">Backoffice <span>· ADMIN TIC</span></strong>
+      <span class="grow"></span>
+      <span class="pill" id="repo-state">sem ligação</span>
+      <a class="btn btn--line sm" href="../index.html" target="_blank" rel="noopener">Ver o site</a>
+      <button class="btn btn--line sm" id="logout" type="button">Sair</button>
+    </div>
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Áreas do site"></nav>
+  </header>
+  <main class="app" id="panel" tabindex="-1">
+    <div class="search"><label for="q" class="vh">Procurar campo</label><input id="q" type="search" placeholder="Procurar um texto ou campo…"></div>
+    <div id="content"></div>
+  </main>
+  <div class="bar" id="bar" role="region" aria-label="Publicação">
+    <span id="bar-msg" aria-live="polite">Sem alterações.</span>
+    <span class="grow"></span>
+    <button class="btn btn--line" id="discard" type="button" disabled>Descartar</button>
+    <button class="btn btn--red" id="publish" type="button" disabled>Publicar</button>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<script src="admin.js"></script>
+</body>
+</html>

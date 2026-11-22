@@ -1,0 +1,470 @@
+{
+ "code": "en",
+ "locale": "en",
+ "og": "en_GB",
+ "label": "EN",
+ "files": {
+  "home": "index.html",
+  "careers": "careers.html",
+  "legal": "legal.html"
+ },
+ "nav": {
+  "services": "Services",
+  "fleet": "Fleet",
+  "faq": "FAQ",
+  "contact": "Contact",
+  "careers": "Careers",
+  "quote": "Request a quote",
+  "menu": "Menu",
+  "skip": "Skip to content",
+  "lang": "Language",
+  "home_aria": "TRN — home page",
+  "call": "Call",
+  "close": "Close",
+  "chooser": "Choose another option"
+ },
+ "phone_label": "Phone",
+ "wa_label": "WhatsApp",
+ "email_label": "Email",
+ "address_label": "Head office",
+ "garage_label": "Office and garage",
+ "titles": {
+  "home": "Coach hire with driver | TRN Rodoviária",
+  "careers": "Careers — Drivers and traffic planners | TRN Rodoviária",
+  "legal": "Privacy and cookies | TRN Rodoviária"
+ },
+ "titles_b": {
+  "home": "Coaches from 16 to 59 seats, on time | TRN Rodoviária"
+ },
+ "descs": {
+  "home": "Coaches from 16 to 59 seats for companies, schools, agencies and groups, in Portugal and Europe. Request a quote from TRN, in Amadora.",
+  "careers": "Work at TRN, in Amadora: passenger car and coach drivers, school transport and traffic planner.",
+  "legal": "Privacy and cookie policy of TRN — Rodoviária Internacional e Nacional, Lda."
+ },
+ "a": {
+  "h1": "Coach hire with driver",
+  "sub": "Transport for companies, schools, agencies and groups, in Portugal and Europe.",
+  "line": "16 to 59 seats · Reply within [1 business day] · Portugal and Europe",
+  "cta1": "Request a quote",
+  "cta2": "See the fleet",
+  "services_t": "Services",
+  "services_l": "What we can do for your group.",
+  "fleet_t": "Our fleet",
+  "fleet_l": "From minibus to executive saloon.",
+  "how_t": "How it works",
+  "faq_t": "Frequently asked questions",
+  "req_t": "Request your quote",
+  "req_l": "Tell us about the trip and we send the quote.",
+  "workers_btn": "How it works for companies",
+  "video_t": "Meet TRN on video",
+  "video_l": "Fleet, team and service in under a minute.",
+  "video_alt": "TRN promotional video"
+ },
+ "b": {
+  "h1": "Coaches from 16 to 59 seats, on time.",
+  "sub": "Groups, schools, companies and events. Tell us about the trip and we will send a quote within [1 business day].",
+  "badges": [
+   "Fast reply",
+   "Professional drivers",
+   "Portugal and Europe"
+  ],
+  "who_t": "Who we work for",
+  "fleet_t": "Own fleet",
+  "steps_t": "Three steps to your trip",
+  "faq_t": "Frequently asked questions",
+  "contacts_t": "Contact",
+  "workers_btn": "How it works for companies",
+  "exec_t": "Executive transport",
+  "exec_x": "Private chauffeur, saloons and vans for small parties.",
+  "exec_cta": "Request executive transport",
+  "jobs_t": "Work with us",
+  "jobs_x": "We are hiring drivers and traffic planners.",
+  "jobs_cta": "See vacancies",
+  "contact_t": "Get in touch"
+ },
+ "quick": {
+  "title": "Request a quote",
+  "from": "From",
+  "to": "To",
+  "date": "Date",
+  "pax": "Passengers",
+  "ph_from": "e.g. Amadora",
+  "ph_to": "e.g. Fátima",
+  "go": "Request a quote",
+  "note": "Quote request, subject to availability. Not a booking."
+ },
+ "services": {
+  "workers": {
+   "name": "Staff transport",
+   "text": "Specialised regular services, including night shifts and weekends, with routes designed to measure."
+  },
+  "school": {
+   "name": "School transport and school trips",
+   "text": "School trips and regular pupil transport, on schedule."
+  },
+  "tours": {
+   "name": "Tours and travel agencies",
+   "text": "One- or multi-day itineraries, in Portugal and Europe."
+  },
+  "groups": {
+   "name": "Excursions and groups",
+   "text": "Associations, families and groups of friends, with pick-up and return at the agreed time."
+  },
+  "events": {
+   "name": "Transfers and events",
+   "text": "Transfers between airport, hotels and event venues."
+  },
+  "executive": {
+   "name": "Executive transport",
+   "text": "Private chauffeur, saloons and vans for small parties."
+  }
+ },
+ "fleet4": [
+  {
+   "id": "minibus",
+   "img": "sprinter",
+   "name": "Minibuses",
+   "cap": "from 16 seats",
+   "text": "Smaller groups, teams and transfers."
+  },
+  {
+   "id": "coach",
+   "img": "trn_man",
+   "name": "Touring coaches",
+   "cap": "up to 59 seats",
+   "text": "Excursions, tours, schools and events."
+  },
+  {
+   "id": "van",
+   "img": "vito2",
+   "name": "Vans",
+   "cap": "private chauffeur",
+   "text": "Small groups, with driver."
+  },
+  {
+   "id": "sedan",
+   "img": "classe_s2",
+   "name": "Executive saloons",
+   "cap": "private chauffeur",
+   "text": "For those travelling in small numbers."
+  }
+ ],
+ "fleet3": [
+  {
+   "name": "Minibuses",
+   "cap": "from 16 seats",
+   "text": "Smaller groups, teams and transfers."
+  },
+  {
+   "name": "Touring coaches",
+   "cap": "up to 59 seats",
+   "text": "Excursions, tours, schools and events."
+  },
+  {
+   "name": "Executive transport",
+   "cap": "saloons and vans",
+   "text": "Private chauffeur for a few passengers."
+  }
+ ],
+ "amen": {
+  "title": "On board",
+  "items": [
+   "Wi-Fi",
+   "WC",
+   "Air conditioning",
+   "Seat belts"
+  ],
+  "note": "Varies by vehicle."
+ },
+ "tabs": [
+  {
+   "label": "Companies",
+   "title": "Staff transport",
+   "text": "Routes designed around your shifts, day, night and weekends.",
+   "img": "trn_man2",
+   "items": [
+    [
+     "Specialised regular services",
+     "Fixed teams and groups, every day, same schedule."
+    ],
+    [
+     "Events and conferences",
+     "Several coaches coordinated at once."
+    ],
+    [
+     "Team transfers",
+     "Airport, hotel and work sites."
+    ]
+   ]
+  },
+  {
+   "label": "Schools and councils",
+   "title": "School transport",
+   "text": "School trips and regular pupil transport, on schedule.",
+   "img": "trn_man",
+   "items": [
+    [
+     "Regular school transport",
+     "Home to school, every school day."
+    ],
+    [
+     "School trips",
+     "Day trips with pick-up at the school gate."
+    ],
+    [
+     "Services for councils",
+     "Senior and youth programmes, municipal events."
+    ]
+   ]
+  },
+  {
+   "label": "Agencies and tours",
+   "title": "Tours and travel",
+   "text": "One- or multi-day itineraries, in Portugal and Europe.",
+   "img": "vito2",
+   "items": [
+    [
+     "National and international circuits",
+     "Complete itineraries, in and out of Portugal."
+    ],
+    [
+     "Transfers",
+     "Airport, stations and hotels."
+    ],
+    [
+     "Tours",
+     "Half-day or full-day trips."
+    ]
+   ]
+  },
+  {
+   "label": "Associations and groups",
+   "title": "Excursions",
+   "text": "For associations, families and groups of friends: door pick-up and return at the agreed time.",
+   "img": "sprinter",
+   "items": [
+    [
+     "One or multi-day excursions",
+     "16 to 59 people per vehicle."
+    ],
+    [
+     "Door pick-up",
+     "One or several departure points."
+    ],
+    [
+     "Larger groups",
+     "Several coaches on the same trip."
+    ]
+   ]
+  }
+ ],
+ "steps": [
+  [
+   "Tell us the trip",
+   "From, to, date and number of passengers."
+  ],
+  [
+   "Get the quote",
+   "Within [1 business day — to be confirmed], with the right vehicle for the group."
+  ],
+  [
+   "Travel worry-free",
+   "Professional driver and one TRN contact throughout."
+  ]
+ ],
+ "faq": [
+  [
+   "How long does a reply take?",
+   "We send the quote within [1 business day — to be confirmed]."
+  ],
+  [
+   "Do you travel outside Portugal?",
+   "Yes. We run tours and transfers in Portugal and Europe."
+  ],
+  [
+   "How many passengers fit?",
+   "16 to 59 per vehicle. For larger groups we combine several coaches on the same trip."
+  ],
+  [
+   "Do you transport shift workers?",
+   "Yes, including night shifts and weekends, on tailored routes."
+  ],
+  [
+   "And for just a few people?",
+   "We offer executive transport: private chauffeur, saloons and vans."
+  ]
+ ],
+ "values": {
+  "title": "Values",
+  "items": [
+   "Punctuality",
+   "Professionalism",
+   "Confidentiality",
+   "Ethics"
+  ],
+  "text": "Uniformed drivers with regular training."
+ },
+ "workers": {
+  "title": "Staff transport for companies",
+  "intro": "We review schedules, headcount and home areas, propose routes and test every route before start-up.",
+  "steps": [
+   [
+    "Diagnosis",
+    "Schedules, headcount and home areas."
+   ],
+   [
+    "Proposal",
+    "Routes and stops, with journey times."
+   ],
+   [
+    "Route test",
+    "We drive every route before start-up."
+   ],
+   [
+    "Follow-up",
+    "Routes adjusted when shifts change."
+   ]
+  ],
+  "perks": [
+   "Dedicated drivers on each route",
+   "Night shifts and weekends",
+   "Monthly invoicing",
+   "Replacement vehicle [to be confirmed]"
+  ],
+  "note": "Items in square brackets are examples to be confirmed by TRN.",
+  "cta": "Request a proposal for my company"
+ },
+ "q": {
+  "title": "Request a quote",
+  "sub": "Two quick steps. Quote request, subject to availability.",
+  "s1": "The trip",
+  "s2": "Your details",
+  "step": "Step {n} of 2",
+  "from": "From",
+  "to": "To",
+  "date": "Date",
+  "pax": "Passengers",
+  "service": "Service",
+  "name": "Name",
+  "email": "Email",
+  "phone": "Phone",
+  "notes": "Notes",
+  "next": "Continue",
+  "back": "Back",
+  "send": "Send request",
+  "sending": "Sending…",
+  "privacy": "By sending, you accept our",
+  "privacy_link": "Privacy policy",
+  "required": "Required field",
+  "bad_email": "Enter a valid email",
+  "got_t": "Request received",
+  "got_x": "Thank you. Reference:",
+  "mail_hint": "We opened your email with the request already written. Press Send in the email to complete it.",
+  "fail": "Could not send. Your data is kept here. Try again or write to {mail}.",
+  "spam": "The request could not be validated.",
+  "subject": "Quote request"
+ },
+ "careers": {
+  "kicker": "Careers · Amadora and Greater Lisbon",
+  "h1": "Drive with us.",
+  "sub": "Day and night shifts, ongoing training and uniform provided. Pick the role and apply in two minutes.",
+  "jobs_t": "Open positions",
+  "example": "[Example vacancies — to be confirmed]",
+  "apply": "Apply",
+  "spont": "Open application",
+  "jobs": [
+   [
+    "Passenger car driver",
+    "Staff transport · night shifts",
+    [
+     "B licence",
+     "Night availability",
+     "Good manner with passengers"
+    ]
+   ],
+   [
+    "Coach driver",
+    "Excursions, tours and regular services",
+    [
+     "D or D1 licence",
+     "Valid CPC (code 95)",
+     "Driver card (tachograph)"
+    ]
+   ],
+   [
+    "School transport driver",
+    "School services · daytime hours",
+    [
+     "Licence suited to the vehicle",
+     "Collective child transport certificate",
+     "Available during school hours"
+    ]
+   ],
+   [
+    "Traffic planner",
+    "Office in Amadora · full time",
+    [
+     "Route and roster planning",
+     "Good Excel skills",
+     "B licence"
+    ]
+   ]
+  ],
+  "form_t": "Application",
+  "job": "Position",
+  "name": "Full name",
+  "phone": "Mobile",
+  "email": "Email",
+  "lic": "Qualifications",
+  "lics": [
+   "B licence",
+   "D / D1 licence",
+   "CPC (code 95)",
+   "Driver card",
+   "Child transport"
+  ],
+  "cv": "CV",
+  "cv_hint": "PDF or Word. You can also send it to geral@trnrodoviaria.pt.",
+  "consent": "I agree to the processing of my data for recruitment purposes.",
+  "send": "Send application",
+  "got_t": "Application received",
+  "subject": "Application"
+ },
+ "contacts": {
+  "title": "Contact",
+  "wa": "Chat on WhatsApp",
+  "call": "Call"
+ },
+ "legal": {
+  "title": "Privacy and cookies",
+  "note": "Draft for legal review before publication.",
+  "privacy_h": "Privacy policy",
+  "cookies_h": "Cookie policy",
+  "privacy": "<p>TRN — Rodoviária Internacional e Nacional, Lda., with head office at Rua Padre António Vieira, n.º 2, 2700-632 Amadora, Portugal (office and garage: Rua das Indústrias, n.º 19, Amadora), is the controller of the personal data collected on this site. Tax ID: [NIPC].</p><p><strong>Purposes:</strong> answering quote requests (name, email, phone and trip details) and handling applications (name, contacts, qualifications and CV you send).</p><p><strong>Legal basis:</strong> pre-contractual steps at your request and consent. <strong>Retention:</strong> [period to define]. <strong>Recipients:</strong> providers supporting TRN (hosting, request intake, email): [to list].</p><p><strong>Rights:</strong> access, rectification, erasure, restriction, objection and portability, and withdrawing consent at any time, via [personal data contact]. You may complain to the Portuguese data protection authority, CNPD (www.cnpd.pt).</p>",
+  "cookies": "<p>This site stores in your browser only what it needs to work: your choice in this notice and the draft of your request while you fill it in. It does not use advertising cookies.</p><p>If visit statistics are ever used, they only run after you accept. You can change your choice by clearing the site data in your browser. Tool: [to fill in].</p>"
+ },
+ "cookie": {
+  "text": "This site stores only what it needs to work. If statistics are ever used, they only run with your permission.",
+  "yes": "Accept",
+  "no": "Decline",
+  "more": "Learn more"
+ },
+ "footer": {
+  "privacy": "Privacy",
+  "cookies": "Cookies",
+  "complaints": "Livro de Reclamações",
+  "complaints_tr": "Complaints Book",
+  "rights": "© 2026 TRN — Rodoviária Internacional e Nacional, Lda.",
+  "author": "Concept, design and copy © 2026 Rúben Neves.",
+  "careers": "Careers"
+ },
+ "og_alt": "TRN coach fleet — Rodoviária Internacional e Nacional",
+ "images": {
+  "trn_frota": "TRN coaches, vans and saloon parked in a row by the 25 de Abril bridge",
+  "trn_man": "TRN MAN touring coach",
+  "trn_man2": "TRN coaches parked at a terminal",
+  "sprinter": "TRN Mercedes Sprinter, front view",
+  "vito2": "TRN Mercedes Vito",
+  "classe_s2": "TRN Mercedes S-Class"
+ }
+}
