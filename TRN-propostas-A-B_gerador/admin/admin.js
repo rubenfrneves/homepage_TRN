@@ -36,7 +36,9 @@
     opt = opt || {};
     var h = { Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
     if (S.token) h.Authorization = 'Bearer ' + S.token;
-    var r = await fetch('https://api.github.com/repos/' + S.repo.owner + '/' + S.repo.repo + '/' + path, { method: opt.method || 'GET', headers: h, body: opt.body ? JSON.stringify(opt.body) : undefined });
+    var r;
+    try { r = await fetch('https://api.github.com/repos/' + S.repo.owner + '/' + S.repo.repo + (path ? '/' + path : ''), { method: opt.method || 'GET', headers: h, body: opt.body ? JSON.stringify(opt.body) : undefined }); }
+    catch (err) { var ne = new Error('Não foi possível contactar o GitHub (api.github.com). Verifique a internet e desative VPN, bloqueadores de conteúdo/anúncios ou o "Limitar rastreamento de IP" do Safari para este site; ou experimente o Chrome.'); ne.status = 0; throw ne; }
     if (!r.ok && !opt.soft) {
       var msg = r.status === 401 ? 'Token inválido ou expirado.' : r.status === 403 ? 'Sem permissão ou limite do GitHub atingido.' : r.status === 404 ? 'Ficheiro ou repositório não encontrado (ou o token não tem acesso).' : r.status === 409 || r.status === 422 ? 'Conflito: o ficheiro mudou no GitHub. Recarregue a página e repita.' : 'Erro do GitHub (' + r.status + ').';
       var e = new Error(msg); e.status = r.status; throw e;
@@ -94,6 +96,7 @@
     ev.preventDefault();
     var t = $('#tk').value.trim(), err = $('#token-err'); err.hidden = true;
     if (!t) { err.textContent = 'Cole o token.'; err.hidden = false; return; }
+    if (!/^[A-Za-z0-9_]{20,}$/.test(t)) { err.textContent = 'O token tem caracteres inválidos (espaços, reticências ou texto a mais). Copie só o código que começa por github_pat_… e cole-o de novo.'; err.hidden = false; return; }
     S.token = t;
     try {
       var r = await gh(''); var j = await r.json();
