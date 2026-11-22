@@ -108,3 +108,4 @@ As duas opções usam os mesmos dados e as mesmas fotografias, e têm as mesmas 
 - **Contactos:** +351 215 871 816 · geral@trnrodoviaria.pt.
 - Aparecem no cabeçalho (telefone), nos contactos, no rodapé, na página Legal e nos dados estruturados do Google. Para os alterar, edite `content.py` (morada, telefone) no gerador e corra `python3 gerar.py`.
 - O logótipo está em `assets/img/logo-trn.svg` (vetorial, feito a partir do PDF fornecido). A imagem de partilha e as capturas da página de escolha usam-no: se o logótipo mudar, corra `python3 tools/imagens.py` depois de `gerar.py`.
+a
